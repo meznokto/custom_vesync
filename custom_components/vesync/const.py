@@ -76,7 +76,7 @@ SENSOR_TYPES_AIRFRYER = {
         "Current temperature",
         UnitOfTemperature.CELSIUS,
         None,
-        SensorDeviceClass.TEMPERATURE,
+        UnitOfTemperature,
         "current_temp",
     ],
     "cook_set_temp": [
@@ -84,7 +84,7 @@ SENSOR_TYPES_AIRFRYER = {
         "Set temperature",
         UnitOfTemperature.CELSIUS,
         None,
-        SensorDeviceClass.TEMPERATURE,
+        UnitOfTemperature,
         "cook_set_temp",
     ],
     "cook_last_time": [
